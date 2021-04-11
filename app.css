@@ -1,0 +1,65 @@
+body{
+    color: rgb(25, 25, 167);
+    font-size: 18px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input{
+    margin: 0.5em;
+    padding: 1em;
+    width: 350px;
+}
+
+.dob{
+    width: 85px;
+}
+
+input[type=radio]{
+    display: inline;
+    width: 8%;
+}
+
+label{
+    font-size: 16px;
+}
+
+input[name=pay]{
+    width: 4.5%;
+}
+
+input[type=radio]{
+    margin-left: 65px;
+}
+
+i{
+    color: rgb(5, 165, 5);
+}
+
+select{
+    margin-top: 1em;
+    width: 100px;
+    padding: 1em;
+    margin-left: 60px;
+}
+
+button[type=submit]{
+    background-color: rgb(5, 165, 5);
+    padding: 1em;
+    margin-top: 2.5em;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 120px;
+    color: white;
+}
